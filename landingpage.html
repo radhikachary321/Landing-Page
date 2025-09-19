@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova Solutions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* Header */
+    header {
+      background: #2b4eff;
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #62a9ef, #6bb9ed);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+    .hero a {
+      background: white;
+      color: #2b4eff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .hero a:hover {
+      background: #ddd;
+    }
+
+    /* Features Section */
+    .features {
+      padding: 60px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .feature-box {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .feature-box h3 {
+      color: #2b4eff;
+      margin-bottom: 15px;
+    }
+
+    /* Call To Action */
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background: #2b4eff;
+      color: white;
+    }
+    .cta a {
+      background: white;
+      color: #2b4eff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .cta a:hover {
+      background: #ddd;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>TechNova Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2>Innovating Your Digital Future</h2>
+    <p>At TechNova Solutions, we deliver cutting-edge technology services to help businesses grow.</p>
+    <a href="#features">Explore Services</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="feature-box">
+      <h3>Web Development</h3>
+      <p>Modern, responsive, and secure websites built for your business needs.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Cloud Solutions</h3>
+      <p>Seamless cloud integration to boost performance and scalability.</p>
+    </div>
+    <div class="feature-box">
+      <h3>AI & Automation</h3>
+      <p>Smart automation powered by AI to save time and increase efficiency.</p>
+    </div>
+  </section>
+
+  <!-- Call To Action -->
+  <section class="cta" id="contact">
+    <h2>Partner With Us Today</h2>
+    <p>Let’s transform your ideas into powerful digital solutions.</p>
+    <a href="mailto:contact@technova.com">Get in Touch</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TechNova Solutions | Empowering Businesses with Technology</p>
+  </footer>
+
+</body>
+</html>
